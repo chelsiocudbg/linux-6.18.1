@@ -13,7 +13,6 @@
 #define __CXGB4_COMMON_H__
 
 #include "cxgb4_pci.h"
-#include "cxgb4_platform.h"
 
 struct device *cxgb4_common_get_device(struct adapter *adap);
 int cxgb4_common_resource_init(struct adapter *adap);
